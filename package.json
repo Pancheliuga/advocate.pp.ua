@@ -1,0 +1,24 @@
+{
+  "name": "advocate.pp.ua",
+  "version": "1.0.0",
+  "description": "personal site for attorney at law",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pancheliuga/advocate.pp.ua.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pancheliuga/advocate.pp.ua/issues"
+  },
+  "homepage": "https://github.com/Pancheliuga/advocate.pp.ua#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "moment": "^2.27.0"
+  }
+}
