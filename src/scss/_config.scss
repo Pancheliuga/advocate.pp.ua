@@ -33,15 +33,15 @@ $gorko-colors: (
   'dark': #38445b,
   'dark-shade': #263147,
   'dark-glare': #505c73,
-  'light': #f9f4e3,
-  'light-shade': #fff6d7,
-  'light-glare': #fdfbf3,
-  'primary': #513aa6,
-  'primary-shade': #432e92,
-  'primary-glare': #654ac9,
-  'secondary': #6ac2b6,
-  'secondary-shade': #35a495,
-  'secondary-glare': #98e2d8,
+  'light': #ffffff,
+  'light-shade': #e5e5e5,
+  'light-glare': #ffffff,
+  'primary': #fff282,
+  'primary-shade': #ccc168,
+  'primary-glare': #fff49b,
+  'secondary': #828fff,
+  'secondary-shade': #6872cc,
+  'secondary-glare': #9ba5ff,
   'tertiary': #ffd490,
   'tertiary-shade': #ffca77,
   'tertiary-glare': #ffdeaa,
@@ -77,7 +77,8 @@ $gorko-config: (
   'font': (
     'items': (
       'base': '"Literata", Georgia, serif',
-      'sans': '"Red Hat Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+      'sans':
+        '"Red Hat Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
     ),
     'output': 'standard',
     'property': 'font-family',
@@ -124,4 +125,3 @@ $gorko-config: (
     'lg': '(min-width: 62em)',
   ),
 );
-

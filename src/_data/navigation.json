@@ -1,23 +1,19 @@
 {
   "items": [
     {
-      "text": "Home",
+      "text": "Головна",
       "url": "/"
     },
     {
-      "text": "About",
-      "url": "/about-us/"
+      "text": "Вартість послуг",
+      "url": "/services/"
     },
     {
-      "text": "Work",
-      "url": "/work/"
-    },
-    {
-      "text": "Blog",
+      "text": "Блог",
       "url": "/blog/"
     },
     {
-      "text": "Contact",
+      "text": "Контакти",
       "url": "/contact/"
     }
   ]

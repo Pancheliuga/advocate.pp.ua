@@ -3,13 +3,13 @@ title: 'Адвокат Панчелюга Катерина'
 metaDesc: 'A made up agency site that you build if you take Learn Eleventy From Scratch, by Piccalilli'
 layout: 'layouts/home.html'
 intro:
-  eyebrow: 'Digital Marketing is our'
-  main: 'Bread & Butter'
-  summary: 'Let us help you create the perfect campaign with our multi-faceted team of talented creatives.'
+  eyebrow: 'Ваш АДВОКАТ'
+  main: 'Катерина Панчелюга'
+  summary: 'Успіх клієнта = мій успіх'
   buttonText: 'See our work'
   buttonUrl: '/work'
-  image: '/images/bg/toast.jpg'
-  imageAlt: 'Buttered toasted white bread'
+  image: '/images/bg/face.jpg'
+  imageAlt: 'Фото адвоката Катерини Панчелюги'
 primaryCTA:
   title: 'This is an agency that doesn’t actually exist'
   summary: 'This is the project site you build when you take the “Learn
