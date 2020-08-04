@@ -4,10 +4,10 @@
 {% block content %}
   <div class="wrapper">
     <article class="intro">
-      <div class="[ intro__header ] [ radius frame ]">
-        <h1 class="[ intro__heading ] [ weight-normal text-400 md:text-600 ]">
+      <div class="intro__header">
+        <h1 class="[ intro__heading ] [ weight-normal text-500 md:text-600 ]">
           {{ intro.eyebrow }}
-          <em class="text-800 md:text-900 lg:text-major weight-bold">{{ intro.main }}</em>
+          <em class=" radius text-600 md:text-700 lg:text-800 weight-bold">{{ intro.main }}</em>
         </h1>
       </div>
       <div class="[ intro__content ] [ flow ]">
@@ -20,6 +20,10 @@
         src="{{ intro.image }}"
         alt="{{ intro.imageAlt }}"
 />
+<picture class="intro__image">
+  <source media="(min-width: 37em)" srcset="/images/hero/hero_full.webp"/>
+  <img src="/images/hero/hero_face.webp" alt="Фото адвоката Катерини Панчелюги"/>
+</picture>
       </div>
     </article>
   </div>

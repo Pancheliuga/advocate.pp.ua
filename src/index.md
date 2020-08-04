@@ -8,8 +8,6 @@ intro:
   summary: 'Успіх клієнта = мій успіх'
   buttonText: 'See our work'
   buttonUrl: '/work'
-  image: '/images/bg/face.jpg'
-  imageAlt: 'Фото адвоката Катерини Панчелюги'
 primaryCTA:
   title: 'This is an agency that doesn’t actually exist'
   summary: 'This is the project site you build when you take the “Learn
