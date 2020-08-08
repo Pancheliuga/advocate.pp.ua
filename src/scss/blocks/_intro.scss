@@ -10,9 +10,11 @@
   }
 
   &__header {
+    padding: get-size('300') get-size('500');
+    background: rgba(get-color('primary'), 0.95);
     z-index: 1;
-    grid-row: 1;
-    // margin: 0 get-size('500'); // Adds a horizontal gutter
+    grid-row: 3;
+    margin: 0 get-size('500'); // Adds a horizontal gutter
 
     // Prevents it from stretching to fill the space
     align-self: center;
@@ -21,8 +23,7 @@
   &__heading {
     em {
       font-style: normal;
-      display: table;
-      background: rgba(get-color('primary'), 0.95);
+      display: block;
 
       // The weight change creates a weird indent, so this
       // optical adjustment fixes it
@@ -37,7 +38,7 @@
     img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
     }
   }
 
@@ -67,11 +68,12 @@
     &__media {
       grid-column: 3/2;
       grid-row: 1/5;
+      height: 40rem;
 
       img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
       }
     }
 
@@ -87,7 +89,7 @@
 
     // Because it's so large, it make sense to limit the image height too
     &__media {
-      // height: 28rem;
+      height: 45rem;
     }
   }
 }

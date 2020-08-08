@@ -5,20 +5,43 @@ layout: 'layouts/home.html'
 intro:
   eyebrow: 'Ваш АДВОКАТ'
   main: 'Катерина Панчелюга'
-  summary: 'Успіх клієнта = мій успіх'
-  buttonText: 'See our work'
+  summary: 'Я зможу Вам допомогти у вирішенні питань, що стосуються:'
+  services:
+    [
+      'Спадкування',
+      'Пенсії',
+      'ДТП',
+      'Кредитів',
+      'Штрафів',
+      'Сімейних спорів',
+      'Землі',
+      'Трудових спорів',
+      'Перевірок бізнесу',
+      'Створення і діяльності юридичних осіб',
+    ]
+  buttonText: 'Вартість послуг'
   buttonUrl: '/work'
 primaryCTA:
-  title: 'This is an agency that doesn’t actually exist'
-  summary: 'This is the project site you build when you take the “Learn
-    Eleventy From Scratch” course so it is all made up as a pretend
-    context. You will learn a lot about Eleventy by building this site
-    though. Take the course today!'
-  buttonText: 'Buy a copy'
-  buttonUrl: 'https://piccalil.li/course/learn-eleventy-from-scratch/'
+  title: 'Успіх клієнта = мій успіх'
+  summary: 'Дозвольте попіклуватися про Ваш час, гроші та нервові клітини - зверніться до мене'
+  buttonText: 'Зконтактувати зі мною'
+  buttonUrl: '/contact'
 featuredWork:
-  title: 'Selected work'
-  summary: 'Some stuff that should give you an idea of what we’re all about.'
+  title: 'Познайомимося ближче?'
+  summary: 'Прошу переглянути відео-консультації з моєю участю на телеканалі "РІВНЕ 1".'
+keyFacts:
+  - primary: '12 років'
+    secondary: 'Юридичної практики'
+  - primary: '5 років'
+    secondary: 'Практикуючий адвокат'
+  - primary: '5 років'
+    secondary: 'In extra revenue'
+  - primary: '750 hours'
+    secondary: 'In saved productivity'
+  - primary: '4'
+    secondary: 'International awards'
+  - primary: '£28,000'
+    secondary: 'Saved in digital advertising'
 ---
 
 This is pretty _rad_, right?

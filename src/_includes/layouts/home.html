@@ -4,22 +4,23 @@
 {% block content %}
   <div class="wrapper">
     <article class="intro">
-      <div class="intro__header">
-        <h1 class="[ intro__heading ] [ weight-normal text-500 md:text-600 ]">
-          {{ intro.eyebrow }}
-          <em class=" radius text-600 md:text-700 lg:text-800 weight-bold">{{ intro.main }}</em>
-        </h1>
-      </div>
+     <div class="[ intro__header ] [ radius frame ]">
+      <h1 class="[ intro__heading ] [ weight-normal text-500 md:text-600 ]">
+        {{ intro.eyebrow }}
+        <em class="text-700 lg:text-800 weight-bold">{{ intro.main }}</em>
+      </h1>
+    </div>
       <div class="[ intro__content ] [ flow ]">
-        <p class="intro__summary">{{ intro.summary }}</p>
+        <p class="intro__summary">{{ intro.summary }}</p> 
+        <ul class="[ key-facts__list ] [ auto-grid ]">
+                        {% for item in intro.services %}
+                            <li class="flow flow-space-300">
+                                {{ item }}</li>
+                        {% endfor %}
+                    </ul>
         <a href="{{ intro.buttonUrl }}" class="button">{{ intro.buttonText }}</a>
       </div>
       <div class="intro__media">
-        <img
-        class="intro__image"
-        src="{{ intro.image }}"
-        alt="{{ intro.imageAlt }}"
-/>
 <picture class="intro__image">
   <source media="(min-width: 37em)" srcset="/images/hero/hero_full.webp"/>
   <img src="/images/hero/hero_face.webp" alt="Фото адвоката Катерини Панчелюги"/>
@@ -32,6 +33,8 @@
   {% include "partials/cta.html" %}
 
   {% include "partials/featured-work.html" %}
+
+  {% include "partials/key-facts.html" %}
 
   {% set ctaContent = cta %}
   {% include "partials/cta.html" %}
