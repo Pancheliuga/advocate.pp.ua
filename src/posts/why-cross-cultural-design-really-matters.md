@@ -1,5 +1,6 @@
 ---
 title: 'Why cross-cultural design really matters'
+description: Utilis templum verbis, date Sidonide et fugit, iram vela cultros pennis et nimium. Tuam speciosam truculenta et cinxit sacer feroci et armenta servas'
 date: '2020-04-01'
 tags: ['Culture', 'Design Thinking']
 ---

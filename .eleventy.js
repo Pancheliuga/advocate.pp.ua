@@ -10,6 +10,9 @@ const htmlMinTransform = require('./src/transforms/html-min-transform.js');
 const isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = (config) => {
+  // Set directories to pass through to the dist folder
+  config.addPassthroughCopy('./src/fonts/');
+
   // Add filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('w3DateFilter', w3DateFilter);

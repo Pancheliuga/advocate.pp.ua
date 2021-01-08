@@ -1,5 +1,6 @@
 ---
 title: 'Design Thinking & Understanding the Product Design Process'
+description: Utilis templum verbis, date Sidonide et fugit, iram vela cultros pennis et nimium. Tuam speciosam truculenta et cinxit sacer feroci et armenta servas'
 date: '2020-02-22'
 tags: 'Design Thinking'
 ---

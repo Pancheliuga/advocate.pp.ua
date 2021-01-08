@@ -13,3 +13,16 @@
     }
   }
 }
+
+.card {
+  --flow-space: 0.5rem;
+  display: block;
+  position: relative;
+  padding: get-size('500');
+  text-decoration: none;
+  background: rgba(get-color('primary'), 0.95);
+
+  > * {
+    display: block;
+  }
+}

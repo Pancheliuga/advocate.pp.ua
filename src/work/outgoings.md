@@ -1,11 +1,11 @@
 ---
-title: 'Outgoings iOS App'
-summary: 'A native iOS app to help people to keep a track of their finances by providing easy-to use tracking and organising capabilities.'
+title: 'Довічне утримання чи спадок: що обрати?'
 displayOrder: 1
 featured: true
+url: 'https://www.youtube.com/watch?v=izm31nPBVWs&list=PLDKh9M3PsFucU9Z7I3gUJDp_ciF-Jnk7f'
 hero:
-  image: '/images/work/outgoings-hero.jpg'
-  imageAlt: 'Screens from the app, composed together as a group.'
+  image: '/images/work/youtube-thumbnail-1.jpg'
+  imageAlt: 'Thumbnail for youtube video'
 keyFacts:
   - primary: '50%'
     secondary: 'Increase in engagement'
@@ -30,6 +30,6 @@ gallery:
   - title: 'Crystal clear information for users'
     summary: 'No distractions, no anti-patterns, just clear,
     user-friendly information'
-    image: '/images/work/outgoings-gallery-3.jpg'
+    image: '/images/placeholders/work-item.jpg'
 team: [1, 4, 6]
 ---

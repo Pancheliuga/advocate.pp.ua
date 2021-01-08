@@ -1,13 +1,11 @@
 ---
-title: 'Brunch & Brew'
-summary: 'An app that helps to bring different generations together via
-intergenerational volunteering.'
+title: 'Що потрібно знати про спадщину?'
 displayOrder: 3
-featured: true 
+featured: true
+url: 'https://www.youtube.com/watch?v=mrTU1ba7Cuc&list=PLDKh9M3PsFucU9Z7I3gUJDp_ciF-Jnk7f'
 hero:
-  image: '/images/work/brunch-and-brew-hero.jpg'
-  imageAlt: 'A composition of the main landing screen and other key
-  views'
+  image: '/images/work/youtube-thumbnail-3.jpg'
+  imageAlt: 'Thumbnail for youtube video'
 keyFacts:
   - primary: '50%'
     secondary: 'Increase in engagement'

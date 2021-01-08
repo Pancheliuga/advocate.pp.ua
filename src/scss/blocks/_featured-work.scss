@@ -1,4 +1,10 @@
 .featured-work {
+  &__heading {
+    &::after {
+      content: '?';
+    }
+  }
+
   &__item {
     display: block;
   }

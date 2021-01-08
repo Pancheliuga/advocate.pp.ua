@@ -1,12 +1,11 @@
 ---
-title: 'Behind the scenes'
-summary: 'A travel journal that transports you to some of the most
-beautiful places on earth.'
+title: 'Майнові питання: як діяти, щоб не втратити нажите?'
 displayOrder: 2
 featured: true
+url: 'https://www.youtube.com/watch?v=PyDWyfIjj9E&list=PLDKh9M3PsFucU9Z7I3gUJDp_ciF-Jnk7f'
 hero:
-  image: '/images/work/behind-the-scenes-hero.jpg'
-  imageAlt: 'A composition of all the views from the app'
+  image: '/images/work/youtube-thumbnail-2.jpg'
+  imageAlt: 'Thumbnail for youtube video'
 keyFacts:
   - primary: '50%'
     secondary: 'Increase in engagement'

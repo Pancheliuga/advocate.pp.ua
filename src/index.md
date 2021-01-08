@@ -27,7 +27,7 @@ primaryCTA:
   buttonText: 'Зконтактувати зі мною'
   buttonUrl: '/contact'
 featuredWork:
-  title: 'Познайомимося ближче?'
+  title: 'Познайомимося ближче'
   summary: 'Прошу переглянути відео-консультації з моєю участю на телеканалі "РІВНЕ 1".'
 keyFacts:
   - primary: '12 років'
@@ -42,6 +42,8 @@ keyFacts:
     secondary: 'International awards'
   - primary: '£28,000'
     secondary: 'Saved in digital advertising'
+studioFeed:
+  title: 'Мої останні дописи'
 ---
 
 This is pretty _rad_, right?
