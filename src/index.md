@@ -42,7 +42,7 @@ keyFacts:
     secondary: 'International awards'
   - primary: '£28,000'
     secondary: 'Saved in digital advertising'
-studioFeed:
+recentFeed:
   title: 'Мої останні дописи'
 ---
 

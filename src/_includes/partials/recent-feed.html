@@ -1,0 +1,33 @@
+<article class="[ recent-feed ] [ panel ] [ bg-tertiary-glare ]">
+  <div class="[ wrapper ] [ flow flow-space-300 ]">
+    <h2
+      class="[ recent-feed__heading ] [ headline ] [ md:measure-micro ]"
+      data-highlight="secondary"
+    >
+      {{ recentFeed.title }}
+    </h2>
+    <p class="visually-hidden" id="recent-feed-desc">
+      Збірка останніх публікацій адвоката Панчелюги Катерини.
+    </p>
+    <div class="[ recent-feed__items ] [ flow-space-700 ]">
+      <ul class="recent-feed__list">
+        {% for item in collections.recentPosts %}
+        <li>
+          <a href="{{ item.url }}" class="[ card ] [ radius frame ] [ flow ]">
+            <span class="font-slab color-secondary leading-flat text-600"
+              >{{ item.data.title }}</span
+            >
+            <span
+              class="color-secondary-mid fs-italic leading-mid flow-space-300"
+              >{{ item.data.description }}</span
+            >
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="[ recent-feed__action ] [ flow-space-700 ]">
+      <a class="button" data-variant="ghost" href="/blog/">усі дописи</a>
+    </div>
+  </div>
+</article>
