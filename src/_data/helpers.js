@@ -70,4 +70,9 @@ module.exports = {
   filterCollectionByKeys(collection, keys) {
     return collection.filter((x) => keys.includes(x.data.key));
   },
+
+  currentYear() {
+    const today = new Date();
+    return today.getFullYear();
+  }
 };

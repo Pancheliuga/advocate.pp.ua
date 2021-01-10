@@ -1,6 +1,6 @@
 ---
 title: 'A Complete Guide to Wireframe Design'
-description: Utilis templum verbis, date Sidonide et fugit, iram vela cultros pennis et nimium. Tuam speciosam truculenta et cinxit sacer feroci'
+description: 'Utilis templum verbis'
 date: '2020-04-13'
 tags: ['Tutorial', 'Learning']
 ---

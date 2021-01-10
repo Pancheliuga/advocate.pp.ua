@@ -2,19 +2,16 @@
   &__list {
     display: flex;
     overflow-x: auto;
+    position: relative;
+    padding-top: get-size('300') !important;
+    padding-left: get-size('300') !important;
     -webkit-overflow-scrolling: touch;
 
     > * {
-      width: 16rem;
-      height: 13rem;
+      width: 18rem;
+      display: flex;
       flex-shrink: 0;
       padding: 0 0 get-size('400') 0;
-
-      img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
     }
 
     > * + * {
@@ -22,11 +19,14 @@
     }
   }
 
+  &__action {
+    text-align: center;
+  }
+
   @include media-query('md') {
     &__list {
       > * {
-        width: 28rem;
-        height: 17rem;
+        width: 24rem;
       }
     }
   }

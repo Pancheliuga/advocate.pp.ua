@@ -1,5 +1,5 @@
 ---
-title: 'Contact us'
+title: 'Контакти'
 layout: 'layouts/page.html'
 ---
 

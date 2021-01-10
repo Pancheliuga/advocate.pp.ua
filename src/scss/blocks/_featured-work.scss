@@ -45,7 +45,6 @@
   @include media-query('lg') {
     grid-template-columns: repeat(2, 1fr);
 
-    &__intro,
     &__item {
       &:nth-child(odd) {
         grid-column: 1/7;
