@@ -1,6 +1,6 @@
 ---
 title: 'Адвокат Панчелюга Катерина'
-metaDesc: 'A made up agency site that you build if you take Learn Eleventy From Scratch, by Piccalilli'
+metaDesc: 'Персональний сайт Адвоката '
 layout: 'layouts/home.html'
 intro:
   eyebrow: 'Ваш АДВОКАТ'
@@ -16,34 +16,30 @@ intro:
       'Сімейних спорів',
       'Землі',
       'Трудових спорів',
-      'Перевірок бізнесу',
-      'Створення і діяльності юридичних осіб',
+      'Супроводу бізнесу',
+      'Міжнародних вантажних перевезень',
+      'Спорів зі страховими коипаніями',
+      'Майнових спорів',
     ]
   buttonText: 'Вартість послуг'
   buttonUrl: '/services'
 primaryCTA:
   title: 'Успіх клієнта = мій успіх'
-  summary: 'Дозвольте попіклуватися про Ваш час, гроші та нервові клітини - зверніться до мене'
+  summary: 'Збережіть свої нервові клітини та кошти - зверніться до мене та живіть спокійно'
   buttonText: 'звяжіться зі мною'
   buttonUrl: '/contact'
 featuredWork:
   title: 'Познайомимося ближче'
-  summary: 'Прошу переглянути відео-консультації з моєю участю на телебачені".'
+  summary: 'Перегляньте відео моїх консультацій на телеканалі "РІВНЕ 1".'
 keyFacts:
   - primary: '12 років'
     secondary: 'Юридичної практики'
-  - primary: '5 років'
+  - primary: '6 років'
     secondary: 'Практикуючий адвокат'
   - primary: '5 років'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
+    secondary: 'Досвіду роботи в органах прокуратури'
 recentFeed:
-  title: 'Мої останні дописи'
+  title: 'Мої дописи'
 ---
 
 This is pretty _rad_, right?
