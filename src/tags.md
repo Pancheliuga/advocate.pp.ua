@@ -1,5 +1,5 @@
 ---
-title: 'Tag Archive'
+title: 'Архів тегів'
 layout: 'layouts/feed.html'
 pagination:
   data: collections

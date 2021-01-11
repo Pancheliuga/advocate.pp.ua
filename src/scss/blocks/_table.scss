@@ -1,10 +1,12 @@
 table {
-  padding: get-size('500');
+  padding: get-size('300');
   width: 100%;
-  border-collapse: collapse;
-}
+  font-size: get-size('300');
+  line-height: 1;
 
-td,
-th {
-  //border: 1px solid rgb(190, 190, 190);
+  @include media-query('md') {
+    padding: get-size('500');
+    font-size: get-size('500');
+    line-height: 1.5;
+  }
 }
