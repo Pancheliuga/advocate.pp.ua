@@ -1,0 +1,35 @@
+{
+  "name": "advocate.pp.ua",
+  "version": "1.0.0",
+  "description": "personal site for attorney at law",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
+    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pancheliuga/advocate.pp.ua.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pancheliuga/advocate.pp.ua/issues"
+  },
+  "homepage": "https://github.com/Pancheliuga/advocate.pp.ua#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "concurrently": "^5.2.0",
+    "get-google-fonts": "^1.2.2",
+    "gorko": "^0.2.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "html-minifier": "^4.0.0",
+    "moment": "^2.27.0",
+    "sass": "^1.26.10"
+  }
+}
