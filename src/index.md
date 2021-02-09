@@ -26,7 +26,7 @@ intro:
 primaryCTA:
   title: 'Успіх клієнта = мій успіх'
   summary: 'Збережіть свої нервові клітини та кошти - зверніться до мене та живіть спокійно'
-  buttonText: 'звяжіться зі мною'
+  buttonText: "зв'яжіться зі мною"
   buttonUrl: '/contact'
 featuredWork:
   title: 'Познайомимося ближче'
