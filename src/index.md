@@ -29,7 +29,7 @@ primaryCTA:
   buttonText: "зв'яжіться зі мною"
   buttonUrl: '/contact'
 featuredWork:
-  title: 'Я в медіа просторі'
+  title: 'Я в медіа-просторі'
   summary: 'Перегляньте відео моїх консультацій на телеканалі "РІВНЕ 1".'
 keyFacts:
   - primary: '12 років'
@@ -41,5 +41,3 @@ keyFacts:
 recentFeed:
   title: 'Мої дописи'
 ---
-
-This is pretty _rad_, right?
