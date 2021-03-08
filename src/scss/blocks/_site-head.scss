@@ -6,14 +6,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 0 1rem;
   }
 
   &__brand {
-    flex-shrink: 0;
-    margin-inline-end: get-size('600'); // Prevents nav bunching up to the logo
+    // flex-shrink: 0;
+    // margin-inline-end: get-size('600'); // Prevents nav bunching up to the logo
 
-    // Optical adjustment to account for the offset the sunken 3s create
-    transform: translateY(0.25rem);
+    // // Optical adjustment to account for the offset the sunken 3s create
+    // transform: translateY(0.25rem);
 
     svg {
       width: 80px;

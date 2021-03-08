@@ -9,8 +9,16 @@
       "url": "/services/"
     },
     {
+      "text": "Вартість послуг",
+      "url": "/prices/"
+    },
+    {
       "text": "Блог",
       "url": "/blog/"
+    },
+    {
+      "text": "Відгуки",
+      "url": "/testimonials/"
     },
     {
       "text": "Контакти",

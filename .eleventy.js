@@ -1,3 +1,4 @@
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const sortByDisplayOrder = require('./src/utils/sort-by-display-order.js');
 // Filters
@@ -21,6 +22,11 @@ module.exports = (config) => {
 
   // Plugins
   config.addPlugin(rssPlugin);
+  config.addPlugin(embedYouTube);
+
+  // Passthrough copy
+  config.addPassthroughCopy('src/js');
+  config.addPassthroughCopy('src/robots.txt');
 
   // Returns work items, sorted by display order
   config.addCollection('work', (collection) => {
