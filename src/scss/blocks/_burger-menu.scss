@@ -58,17 +58,18 @@
   background: get-color('primary');
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  z-index: 2;
 }
 
-.burger-menu[enabled='true'] .navigation ul {
+.burger-menu[enabled='true'] .nav ul {
   display: block;
 }
 
-.burger-menu[enabled='true'] .navigation ul > * + * {
+.burger-menu[enabled='true'] .nav ul > * + * {
   margin-top: 2rem;
 }
 
-.burger-menu[enabled='true'] .navigation li {
+.burger-menu[enabled='true'] .nav li {
   font-size: 1.5rem;
 }
 

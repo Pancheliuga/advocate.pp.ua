@@ -11,13 +11,22 @@
       </a>
       <burger-menu max-width="600">
         <nav
-          class="[nav] [ site-head__nav ] [ font-sans ]"
+          class="[ nav ] [ site-head__nav ] [ font-sans ]"
           aria-label="primary"
         >
           <ul class="nav__list" role="list">
             {% for item in navigation.items %}
             <li>
-              <a href="{{ item.url }}">{{ item.text }}</a>
+              <a
+                href="{{ item.url }}"
+                {{
+                helpers.getLinkActiveState(item.url,
+                page.url)
+                |
+                safe
+                }}
+                >{{ item.text }}</a
+              >
             </li>
             {% endfor %}
           </ul>
