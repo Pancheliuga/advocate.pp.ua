@@ -28,9 +28,11 @@ primaryCTA:
   summary: 'Збережіть свої нервові клітини та кошти - зверніться до мене та живіть спокійно'
   buttonText: "зв'яжіться зі мною"
   buttonUrl: '/contact'
-featuredWork:
+mediaSpace:
   title: 'Я в медіа-просторі'
-  summary: 'Перегляньте відео моїх консультацій на телеканалі "РІВНЕ 1".'
+  summary: 'Перегляньте відео за моєї участі.'
+  videoid:
+    ['SX6P_9sDyCU', 'PyDWyfIjj9E', 'izm31nPBVWs', 'mrTU1ba7Cuc', 'rkqq8Ni2Owo']
 keyFacts:
   - primary: '12 років'
     secondary: 'Юридичної практики'

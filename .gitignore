@@ -3,6 +3,7 @@
 npm-debug.*
 *.scssc
 *.swp
+.DS_Store
 Thumbs.db
 .sass-cache
 .env

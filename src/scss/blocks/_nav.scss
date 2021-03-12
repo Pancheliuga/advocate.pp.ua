@@ -1,16 +1,18 @@
 .nav {
-  line-height: 1;
+  line-height: 1.1;
   font-weight: 900;
-  margin-top: -#{get-size('400')};
-  margin-inline-start: -#{get-size('400')};
+  //margin-top: -#{get-size('400')};
+  //margin-inline-start: -#{get-size('400')};
 
   &__list {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem 0.8rem;
+    padding: 0;
 
-    > * {
-      padding-top: get-size('400');
-      padding-inline-start: get-size('400');
+    > li {
+      margin: 0.1rem;
     }
   }
 
