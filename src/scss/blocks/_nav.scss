@@ -1,8 +1,8 @@
 .nav {
-  line-height: 1;
+  line-height: 1.1;
   font-weight: 900;
-  margin-top: -#{get-size('400')};
-  margin-inline-start: -#{get-size('400')};
+  //margin-top: -#{get-size('400')};
+  //margin-inline-start: -#{get-size('400')};
 
   &__list {
     display: flex;
