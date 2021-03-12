@@ -105,7 +105,7 @@ class BurgerMenu extends HTMLElement {
     switch (this.state.status) {
       case 'closed':
         this.trigger.setAttribute('aria-expanded', 'false');
-        this.trigger.setAttribute('aria-label', 'Open menu');
+        this.trigger.setAttribute('aria-label', 'Відкрити меню');
         break;
       case 'open':
       case 'initial':
