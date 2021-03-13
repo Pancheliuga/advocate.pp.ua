@@ -32,7 +32,7 @@ mediaSpace:
   title: 'Я в медіа-просторі'
   summary: 'Перегляньте відео за моєї участі.'
   videoid:
-    ['SX6P_9sDyCU', 'PyDWyfIjj9E', 'izm31nPBVWs', 'mrTU1ba7Cuc', 'rkqq8Ni2Owo']
+    ['d61FzVopdrE', 'PyDWyfIjj9E', 'izm31nPBVWs', 'mrTU1ba7Cuc', 'rkqq8Ni2Owo']
 keyFacts:
   - primary: '12 років'
     secondary: 'Юридичної практики'
