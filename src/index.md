@@ -30,7 +30,7 @@ primaryCTA:
   buttonUrl: '/contact'
 mediaSpace:
   title: 'Я в медіа-просторі'
-  summary: 'Перегляньте відео за моєї участі.'
+  summary: 'Перегляньте відео моїх консультацій на телеканалі "РІВНЕ 1".'
   videoid:
     ['d61FzVopdrE', 'PyDWyfIjj9E', 'izm31nPBVWs', 'mrTU1ba7Cuc', 'rkqq8Ni2Owo']
 keyFacts:
