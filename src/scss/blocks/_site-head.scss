@@ -10,7 +10,6 @@
 
     burger-menu {
       flex: 1;
-      margin-left: 1.5rem;
     }
   }
 
@@ -39,6 +38,10 @@
         width: 120px;
         height: auto;
       }
+    }
+
+    &__inner burger-menu {
+      flex: none;
     }
   }
 }
