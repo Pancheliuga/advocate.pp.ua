@@ -10,10 +10,12 @@
 
     burger-menu {
       flex: 1;
+      margin-left: 1.5rem;
     }
   }
 
   &__brand {
+    display: none;
     // flex-shrink: 0;
     // margin-inline-end: get-size('600'); // Prevents nav bunching up to the logo
 
@@ -32,6 +34,7 @@
 
   @include media-query('md') {
     &__brand {
+      display: flex;
       svg {
         width: 120px;
         height: auto;
