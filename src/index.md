@@ -22,7 +22,7 @@ intro:
       'Майнових спорів',
     ]
   buttonText: 'Вартість послуг'
-  buttonUrl: '/services'
+  buttonUrl: '/prices'
 primaryCTA:
   title: 'Успіх клієнта = мій успіх'
   summary: 'Збережіть свої нервові клітини та кошти - зверніться до мене та живіть спокійно'
