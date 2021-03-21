@@ -25,4 +25,8 @@
     background: transparent;
     color: get-color('quaternary-glare');
   }
+
+  @include media-query('md') {
+    display: none;
+  }
 }
