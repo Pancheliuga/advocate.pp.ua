@@ -6,14 +6,14 @@
 .burger-menu__bar::before,
 .burger-menu__bar::after {
   display: block;
-  width: 24px;
+  width: 30px;
   height: 3px;
   background: get-color('dark-shade');
   border: 1px solid get-color('dark-shade');
   position: absolute;
   border-radius: 3px;
   left: 50%;
-  margin-left: -12px;
+  margin-left: -15px;
   transition: transform 350ms ease-in-out;
 }
 
@@ -28,11 +28,11 @@
 }
 
 .burger-menu__bar::before {
-  top: -8px;
+  top: -10px;
 }
 
 .burger-menu__bar::after {
-  bottom: -8px;
+  bottom: -10px;
 }
 
 .burger-menu[enabled='true'] .burger-menu__trigger {
