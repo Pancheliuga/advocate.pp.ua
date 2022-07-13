@@ -25,6 +25,8 @@ module.exports = (config) => {
   config.addPlugin(embedYouTube);
 
   // Passthrough copy
+      // Set directories to pass through to the dist folder
+  config.addPassthroughCopy('./src/images/');
   config.addPassthroughCopy('src/js');
   config.addPassthroughCopy('src/robots.txt');
 
