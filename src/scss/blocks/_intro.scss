@@ -11,7 +11,7 @@
 
   &__header {
     padding: get-size('300') get-size('500');
-    background: rgba(get-color('primary'), 0.95);
+    background: rgba(get-color('quaternary'), 0.95);
     z-index: 1;
     grid-row: 3;
     margin: 0 get-size('500'); // Adds a horizontal gutter
