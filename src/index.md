@@ -27,17 +27,17 @@ intro:
 primaryCTA:
   title: 'Успіх клієнта = мій успіх'
   summary: 'Збережіть свої нервові клітини та кошти - зверніться до мене та живіть спокійно'
-  buttonText: "зв'яжіться зі мною"
-  buttonUrl: '/contact'
+  buttonText: "консультація"
+  buttonUrl: '/blog/chomu-zvertayutsya-do-mene-za-konsultaciyeyu/'
 mediaSpace:
   title: 'Я в медіа-просторі'
   summary: 'Перегляньте відео моїх консультацій на телеканалі "РІВНЕ 1".'
   videoid:
     ['d61FzVopdrE', 'PyDWyfIjj9E', 'izm31nPBVWs', 'mrTU1ba7Cuc', 'rkqq8Ni2Owo']
 keyFacts:
-  - primary: '12 років'
+  - primary: '13 років'
     secondary: 'Юридичної практики'
-  - primary: '6 років'
+  - primary: '7 років'
     secondary: 'Практикуючий адвокат'
   - primary: '5 років'
     secondary: 'Досвіду роботи в органах прокуратури'
