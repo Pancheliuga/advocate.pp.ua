@@ -8,9 +8,9 @@
     align-items: center;
     gap: 0 1rem;
 
-    burger-menu {
-      flex: 1;
-    }
+    // burger-menu {
+    //   flex: 1;
+    // }
   }
 
   &__brand {
@@ -34,14 +34,22 @@
   @include media-query('md') {
     &__brand {
       display: flex;
+      order: 1;
       svg {
         width: 120px;
         height: auto;
       }
     }
 
+    &__inner .call-us {
+      order: 2;
+      flex: 1;
+    }
+
     &__inner burger-menu {
       flex: none;
+      order: 3;
     }
   }
 }
+

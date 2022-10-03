@@ -6,7 +6,6 @@
   background: get-color('quaternary-glare');
   color: get-color('dark-shade');
   border: 2px solid;
-  text-transform: uppercase;
   text-decoration: none;
   text-align: center;
   font-size: get-size('400');
@@ -14,10 +13,8 @@
   @include apply-utility('font', 'sans');
   @include apply-utility('weight', 'bold');
 
-  // Make sure hover state trumps all variants with a good ol’ important
-  &:hover {
-    background: get-color('quaternary') !important;
-    color: get-color('dark-shade') !important;
+  &::before {
+    content: attr(data-icon);
   }
 
   // Add a ghost modifier
@@ -27,6 +24,10 @@
   }
 
   @include media-query('md') {
-    display: none;
+    padding: 0;
+    background: none;
+    color: get-color('dark-shade');
+    border: none;
+    font-size: get-size('500');
   }
 }
